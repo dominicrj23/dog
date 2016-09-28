@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"node app.js",
+    "start":"node",
     "start:docker": "docker-compose -f docker/docker-compose.yml up -d",
     "start:docker:loud": "docker-compose -f docker/docker-compose.yml up",
     "stop:docker" : "docker-compose -f docker/docker-compose.yml stop",
