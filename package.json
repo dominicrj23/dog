@@ -8,7 +8,7 @@
     "start:docker": "docker-compose -f docker/docker-compose.yml up -d",
     "start:docker:loud": "docker-compose -f docker/docker-compose.yml up",
     "stop:docker" : "docker-compose -f docker/docker-compose.yml stop",
-    "clean:docker" : "docker-compose -f docker/docker-compose.yml drop",
+    "clean:docker" : "docker-compose -f docker/docker-compose.yml down",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
